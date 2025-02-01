@@ -50,6 +50,9 @@
         width: 100%;
         margin: 0 auto;
       }
+      .special-bg {
+        background: linear-gradient(135deg, #53DB3A 0%, white 100%);
+      }
     </style>
   </head>
 
@@ -214,65 +217,188 @@
       <!-- products section -->
       <section class="max-w-full bg-secondary py-10 lg:py-16">
         <div class="hero">
-          <div class="hero-content text-center flex-col self-end">
+          <div class="hero-content text-left flex-col self-end">
             <h2
               class="w-full text-2xl text-left text-primary font-bold lg:text-3xl lg:pb-5"
             >
               Popular Products
             </h2>
             <!-- all cards container -->
-            <div class="flex flex-col">
+            <div class="flex flex-col gap-4">
               <!-- big card -->
               <!-- bg-linear-65 from-primary to-pink-500 -->
-              <div class="card min-h-80 bg-primary">
-                <div class="card-body text-left">
+              <div class="card special-bg min-h-80 bg-linear-65 from-primary to-white">
+                <div class="pl-6 pt-6 text-left flex flex-col gap-3">
                   <h2 class="card-title text-white font-bold text-2xl">
                     30% off
                   </h2>
-                  <p>
+                  <p class="text-white">
                     Discover a world of treats, toys, and essentials handpicked
                     for
                   </p>
                   <div class="card-actions">
                     <button class="btn bg-white text-xl w-32">Buy Now</button>
-                    <figure class="px-10 pt-10">
-                      <div class="p-5 bg-white rounded-full">
-                        <img src="c2-assets/service.png" class="" />
-                      </div>
-                    </figure>
                   </div>
+                  <figure
+                    class="w-full flex justify-end"
+                    style="justify-content: flex-end"
+                  >
+                    <img src="c2-assets/vegetable-offer.png" class="w-fit" />
+                  </figure>
                 </div>
               </div>
               <!-- card container -->
-              <div class="grid gap-2 grid-cols-2 lg:grid-cols-3">
+              <div class="grid gap-4 grid-cols-2 lg:grid-cols-3">
                 <!-- card 1 -->
-                <div class="card flex-row bg-white rounded-lg">
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
                   <figure class="">
                     <div class="p-2 bg-secondary rounded">
                       <img src="c2-assets/service.png" class="w-14 h-14" />
                     </div>
                   </figure>
-                  <div class="flex flex-col items-center text-center">
-                    <h2 class="card-title font-bold text-xl">24/7 Services</h2>
-                    <p>
-                      We're here for you, round the clock, ensuring fresh
-                      vegetables whenever you need them
-                    </p>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
                   </div>
                 </div>
                 <!-- card 2 -->
-                <div class="card bg-secondary">
-                  <figure class="px-10 pt-10">
-                    <div class="p-5 bg-white rounded-full">
-                      <img src="c2-assets/delivery.png" class="" />
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
+                  <figure class="">
+                    <div class="p-2 bg-secondary rounded">
+                      <img src="c2-assets/service.png" class="w-14 h-14" />
                     </div>
                   </figure>
-                  <div class="card-body items-center text-center">
-                    <h2 class="card-title font-bold text-xl">Fast Delivery</h2>
-                    <p>
-                      Speedy delivery straight to your doorstep so you never run
-                      out of fresh produce
-                    </p>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
+                  </div>
+                </div>
+                <!-- card 1 -->
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
+                  <figure class="">
+                    <div class="p-2 bg-secondary rounded">
+                      <img src="c2-assets/service.png" class="w-14 h-14" />
+                    </div>
+                  </figure>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
+                  <figure class="">
+                    <div class="p-2 bg-secondary rounded">
+                      <img src="c2-assets/service.png" class="w-14 h-14" />
+                    </div>
+                  </figure>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
+                  </div>
+                </div>
+                <!-- card 1 -->
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
+                  <figure class="">
+                    <div class="p-2 bg-secondary rounded">
+                      <img src="c2-assets/service.png" class="w-14 h-14" />
+                    </div>
+                  </figure>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
+                  <figure class="">
+                    <div class="p-2 bg-secondary rounded">
+                      <img src="c2-assets/service.png" class="w-14 h-14" />
+                    </div>
+                  </figure>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
+                  </div>
+                </div>
+                <!-- card 1 -->
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
+                  <figure class="">
+                    <div class="p-2 bg-secondary rounded">
+                      <img src="c2-assets/service.png" class="w-14 h-14" />
+                    </div>
+                  </figure>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div
+                  class="card flex-row bg-white rounded-lg p-3 gap-3 items-center"
+                >
+                  <figure class="">
+                    <div class="p-2 bg-secondary rounded">
+                      <img src="c2-assets/service.png" class="w-14 h-14" />
+                    </div>
+                  </figure>
+                  <div class="flex flex-col items-start text-left h-full">
+                    <i class="fa-solid fa-star text-[#FFC107] flex-grow"
+                      ><span class="text-black pl-1 text-xs font-light"
+                        >4.5</span
+                      ></i
+                    >
+                    <h2 class="card-title text-sm flex-grow">Onion 1 KG</h2>
+                    <p class="text-xs">$39.99</p>
                   </div>
                 </div>
               </div>
@@ -363,7 +489,9 @@
               your furry friends
             </p>
           </aside>
-          <nav class="lg:col-span-2 lg:flex lg:flex-col lg:h-full lg:items-stretch">
+          <nav
+            class="lg:col-span-2 lg:flex lg:flex-col lg:h-full lg:items-stretch"
+          >
             <a class="link link-hover lg:flex-grow">Product</a>
             <a class="link link-hover lg:flex-grow">Services</a>
             <a class="link link-hover">Contact Us</a>
