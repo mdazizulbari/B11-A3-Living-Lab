@@ -121,13 +121,19 @@
 
     <main>
       <!-- hero section -->
-      <section>
-        <div class="hero bg-gradient-to-b from-white to-secondary min-h-screen">
+      <section class="max-w-full">
+        <div
+          class="hero bg-gradient-to-b from-white to-secondary min-h-screen pt-52"
+        >
           <div class="hero-content text-center flex-col self-end pb-0">
-            <div class="max-w-96">
-              <h1 class="text-[32px] font-bold">
-                Freshness <span class="text-primary">You Can Count</span> On,
-                Prices <br />
+            <div class="max-w-96 lg:max-w-[827px]">
+              <h1 class="text-[32px] font-bold lg:text-[56px]">
+                Freshness
+                <span class="text-primary"
+                  >You Can<br class="hidden lg:block" />
+                  Count</span
+                >
+                On, Prices <br class="lg:hidden" />
                 You’ll Love!
               </h1>
               <p class="py-6">
@@ -135,7 +141,11 @@
                 produce to pantry staples, we’ve got you covered every day!
               </p>
             </div>
-            <img src="c2-assets/hero-vegetables.png" alt="">
+            <img
+              src="c2-assets/hero-vegetables.png"
+              alt=""
+              class="lg:max-w-5xl"
+            />
           </div>
         </div>
       </section>
