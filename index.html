@@ -51,7 +51,7 @@
         margin: 0 auto;
       }
       .special-bg {
-        background: linear-gradient(135deg, #53DB3A 0%, white 100%);
+        background: linear-gradient(135deg, #53db3a 0%, white 100%);
       }
     </style>
   </head>
@@ -227,23 +227,32 @@
             <div class="flex flex-col lg:flex-row gap-4 lg:w-full">
               <!-- big card -->
               <!-- bg-linear-65 from-primary to-pink-500 -->
-              <div class="card special-bg min-h-80 lg:w-2/5 lg:min-h-[350px] bg-linear-65 from-primary to-white">
+              <div
+                class="card special-bg min-h-80 lg:w-2/5 lg:min-h-[350px] bg-linear-65 from-primary to-white"
+              >
                 <div class="pl-6 pt-6 text-left flex flex-col gap-3">
-                  <h2 class="card-title text-white font-bold text-2xl">
+                  <h2
+                    class="card-title text-white font-bold text-2xl lg:text-3xl"
+                  >
                     30% off
                   </h2>
-                  <p class="text-white lg:w-9/12">
+                  <p class="text-white lg:w-9/12 lg:text-xl">
                     Discover a world of treats, toys, and essentials handpicked
                     for
                   </p>
                   <div class="card-actions">
-                    <button class="btn bg-white text-xl w-32 lg:w-40">Buy Now</button>
+                    <button class="btn bg-white text-xl w-32 lg:w-40">
+                      Buy Now
+                    </button>
                   </div>
                   <figure
                     class="w-full flex justify-end"
                     style="justify-content: flex-end"
                   >
-                    <img src="c2-assets/vegetable-offer.png" class="w-fit lg:absolute lg:bottom-0" />
+                    <img
+                      src="c2-assets/vegetable-offer.png"
+                      class="w-fit lg:absolute lg:bottom-0"
+                    />
                   </figure>
                 </div>
               </div>
@@ -496,8 +505,39 @@
     </main>
 
     <footer class="">
+      <!-- Subscribe section -->
+      <section class="px-4 -mb-[280px]">
+        <div class="card bg-secondary">
+          <figure class="px-10 pt-10">
+            <img
+              src="c2-assets/vegetable-busket.png"
+              alt="Shoes"
+              class="rounded-xl"
+            />
+          </figure>
+          <div class="card-body items-center text-center gap-5">
+            <h2 class="card-title text-primary text-2xl font-bold">
+              Get Grocery News!
+            </h2>
+            <p>Exclusive training tips, ticks, product deals and more.</p>
+
+            <div class="card-actions gap-5 w-full justify-center">
+              <input
+                type="text"
+                placeholder="Enter Email"
+                class="input w-full max-w-xs"
+              />
+              <button
+                class="btn bg-primary text-white w-36 font-normal"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- footer -->
-      <div class="bg-primary">
+      <div class="bg-primary pt-[280px]">
         <div
           class="footer text-white lg:text-xl text-base-content p-10 lg:py-32 lg:max-w-[1320px] lg:mx-auto lg:grid-cols-5"
         >
